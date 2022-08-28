@@ -1,6 +1,10 @@
 ```bash
-$ py -i app.py 
->>> init_db("product")
+$ py -i app.py
+# create table 
+>>> init_table("product")
+```
+
+```bash
 >>> insert_in_table("product",data)
 >>> get_all_from_table("product")
 (3, 'data', 'data', 'data', 678.0)
